@@ -6,10 +6,11 @@ class Entry {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            parseArgs("kwc -c test.txt".split(" ").toTypedArray())
-            parseArgs("kwc -l test.txt".split(" ").toTypedArray())
-            parseArgs("kwc -w test.txt".split(" ").toTypedArray())
-            parseArgs("kwc -m test.txt".split(" ").toTypedArray())
+//            parseArgs("kwc -c test.txt".split(" ").toTypedArray())
+//            parseArgs("kwc -l test.txt".split(" ").toTypedArray())
+//            parseArgs("kwc -w test.txt".split(" ").toTypedArray())
+//            parseArgs("kwc -m test.txt".split(" ").toTypedArray())
+            parseArgs(args)
         }
     }
 }
